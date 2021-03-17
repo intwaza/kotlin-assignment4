@@ -2,10 +2,10 @@ import java.util.*
 
 fun main() {
 string("Belyse","Akirachix","bool","lisalab")
+    city()
     number()
    val student= name("Belyse","Intwaza","Aime")
     println(Arrays.toString(student))
-    city()
 }
 fun string(name:String,school:String,classrom:String,classes:String){
     val string= arrayOf(name, school,classrom,classes)
@@ -13,7 +13,7 @@ fun string(name:String,school:String,classrom:String,classes:String){
 }
 fun city(){
     val cities= arrayOf("harare","mumbai","dodoma","jakarita")
-   println(cities[0].capitalize()+ " " +cities[1].capitalize()+ " "+ cities[2].capitalize()+" " +cities[3].capitalize())
+   println(cities[0].capitalize()+ "," +cities[1].capitalize()+ ","+ cities[2].capitalize()+"," +cities[3].capitalize())
 
 }
 fun number(){
